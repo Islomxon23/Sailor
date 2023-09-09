@@ -1,0 +1,532 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 13vh;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+#nav2{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    padding-right: 120px;
+    align-items: center;
+}
+#nav1{
+    width: 30%;
+    text-align: center;
+}
+#nav2 > button{
+    background-color: crimson;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+#head{
+    background: no-repeat url('./img/slide/slide-1.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    /* filter: brightness(0.5); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#nav1 > h2{
+    color: #556270;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    line-height: 1;
+}
+#nav2 > a{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #556270;
+    white-space: nowrap;
+}
+#nav2 > a:first-child{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: crimson;
+    white-space: nowrap;
+}
+#head > h1{
+    font-size: 48px;
+    color: #149fff;
+}
+#head > p{
+    text-align: center;
+    width: 80%;
+    color: #149fff;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#head > button{
+    background-color: crimson;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+}
+#head1{
+    display: flex;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-top: 50px;
+}
+#head1 > div{
+    width: 50%;
+}
+#head2 > h1{
+    font-size: 48px;
+}
+#head2{
+    padding-right: 20px;
+}
+#head2 > p{
+    font-size: 25px;
+    margin-top: 30px;
+}
+#head3{
+    padding-left: 20px;
+}
+#head3 > p{
+    font-size: 17px;
+}
+#head3 > ul > li{
+    font-size: 17px;
+    margin-top: 20px;
+}
+#head3 > ul{
+    list-style: none;
+}
+#head3 > ul > li > i{
+    color: crimson;
+}#head3 > p:last-child{
+    margin-top: 17px;
+    font-style: italic;
+}
+#main > img{
+    width: 80px;
+    filter: grayscale(100);
+    transition: 0.5s;
+}
+#main{
+    width: 100%;
+    height: 15vh;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+#main > img:hover{
+    filter: grayscale(0);
+    width: 90px;
+    transition: 0.5s;
+}
+#sun{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#sun > div{
+    width: 49%;
+}
+#sun > div > div{
+    width: 100%;
+    height: 160px;
+    background-color: #f8f9fa;
+    margin-top: 30px;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+}
+#sun > div > div > div > i{
+    font-size: 20pt;
+    color: crimson;
+}
+#sun > div > div > div > h4{
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+#sun > div > div > div > p{
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+#but{
+    display: flex;
+    justify-content: center;
+}
+#but > button{
+    width: 60px;
+    height: 30px;
+    border: none;
+    background: none;
+}
+#but > button:first-child{
+    background-color: crimson;
+    border-radius: 3px;
+    color: white;
+}
+#but > button:hover{
+    background-color: crimson;
+    border-radius: 3px;
+    color: white;
+}
+#img{
+    display: flex;
+    padding-left: 80px;
+    padding-right: 40px;
+}
+#img > div{
+    width: calc(100%/3 - 12px);
+}
+#img > div > img{
+    width: 380px;
+    margin-top: 30px;
+}
+#red{
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #515d6a;
+}
+#red > div{
+    width: calc(100%/4 - 12px);
+}
+#red > div > p{
+    color: gray;
+    margin-top: 20px;
+}
+#red > div > h4{
+    color: white;
+}
+#red > div > h2{
+    color: white;
+}
+#icon{
+    font-size: 20px;
+    margin-top: 20px;
+}
+#icon > a{
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+#mmm > button{
+    background-color: crimson;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+#by{
+    background-color: #556270;
+    padding: 30px;
+}
+#by > p{
+    text-align: center;
+    color: white;
+}
+#nav22{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    padding-right: 120px;
+    align-items: center;
+}
+#nav22 > button{
+    background-color: crimson;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+#nav22 > a{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #556270;
+    white-space: nowrap;
+}
+#active{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: crimson;
+    white-space: nowrap;
+}
+#kol{
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#kol{
+   padding-top: 100px;
+   margin-left: 145px;
+   display: flex;
+   font-size: 30pt;
+}
+#rrr{
+    margin-right:100px;
+    padding-top: 40px;
+    font-size: 13pt;
+}
+#head11{
+    display: flex;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-top: 50px;
+}
+#head11 > div{
+    width: 50%;
+}
+#head22 > h1{
+    font-size: 48px;
+}
+#head22{
+    padding-right: 20px;
+}
+#head22 > p{
+    font-size: 25px;
+    margin-top: 30px;
+}
+#head33{
+    padding-left: 20px;
+}
+#head33 > p{
+    font-size: 17px;
+}
+#head33 > ul > li{
+    font-size: 17px;
+    margin-top: 20px;
+}
+#head33 > ul{
+    list-style: none;
+}
+#head33 > ul > li > i{
+    color: crimson;
+}#head33 > p:last-child{
+    margin-top: 17px;
+    font-style: italic;
+}
+#src{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+#hj{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#nmm{
+    display: flex;
+}
+#nmm > div > p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+#nmm > div > i{
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#nmm > div > h2{
+    color: #556270;
+    margin-top: 15px;
+}
+#ooo{
+    margin-left: 30px;
+}
+#hhh1 > h5{
+    color: grey;
+}
+#hhh1 > h1{
+    color: #515d6a;
+}
+#hhh1{
+    margin-top: 45px;
+    margin-left: 100px;
+}
+#foiz{
+    display: flex;
+    color: #556270;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 30px;
+}
+#foiz > div{
+    width: 49%;
+}
+#foiz > div > div{
+    width: 100%;
+}
+#web > div{
+    display: flex;
+    justify-content: space-between;
+}
+#web > progress{
+    width: 100%;
+}
+#get1{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 20px;
+}
+#sad1{
+    width: 30%;
+    font-size: 25px;
+}
+#ded1{
+    width: 40%;
+    font-size: 17px;
+}
+#der1{
+    width: 30%;
+}
+#der1 > img{
+    width: 250px;
+}
+#pricing > div{
+    width: 250px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#pricing{
+    display: flex;
+    justify-content: space-around;
+}
+#pricing > div > p{
+    margin-top: 30px;
+}
+#pricing > div > button{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: white;
+}
+#zzz{
+    display: flex;
+    width: 100%;
+    padding: 100px;
+}
+#zzz1{
+    width: 40%;
+    padding-right: 30px;
+}
+#zzz2{
+    width: 60%;
+padding-left: 30px;
+}
+#zzz > div > p{
+    margin-top: 40px;
+}
+#yyy{
+    display: flex;
+    padding: 100px;
+}
+#yyy > div > img{
+    width: 700px;
+}
+#yyy > div > button{
+    background-color: red;
+    color: white;
+    font-size: 20pt;
+}
+#yyy > div > input{
+    font-size: 15pt;
+}
+#ccc{
+    padding: 70px;
+    margin-top: -80px;
+}
+#ccc > p{
+    font-size: 20px;
+    margin-top: 25px;
+}
+#ccc > h2{
+    margin-top: 25px;
+}
+#ggg > img{
+    width: 1000px;
+    margin: auto;
+    display: block;
+}
+#tyr{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+#xcv{
+    font-size: 60px;
+}
+#asz{
+    display: flex;
+    margin-top: 15px;
+}
+#input_id{
+    width: 500px;
+    height: 40px;
+}
+#input_class{
+    width: 500px;
+    margin-top: 15px;
+}
+#inp{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+#inp > input{
+    width: 45%;
+    height: 40px;
+}
